@@ -50,6 +50,33 @@ Frontend mặc định chạy ở cổng 3000.
 - npm >= 8
 - Hệ điều hành Windows (mặc định lưu file về D:\Downloads)
 
+## Thư viện cần cài đặt
+### Backend
+- axios ^1.10.0
+- cheerio ^1.1.0
+- cors ^2.8.5
+- dotenv ^16.5.0
+- express ^5.1.0
+- fs-extra ^11.3.0
+- puppeteer ^24.10.2
+- readline-sync ^1.4.10
+- youtube-dl-exec ^3.0.22
+
+### Frontend
+- @emotion/react ^11.14.0
+- @emotion/styled ^11.14.0
+- @mui/icons-material ^7.1.2
+- @mui/material ^7.1.2
+- @testing-library/dom ^10.4.0
+- @testing-library/jest-dom ^6.6.3
+- @testing-library/react ^16.3.0
+- @testing-library/user-event ^13.5.0
+- axios ^1.10.0
+- react ^19.1.0
+- react-dom ^19.1.0
+- react-scripts 5.0.1
+- web-vitals ^2.1.4
+
 ## Ghi chú
 - Video và file tóm tắt sẽ được lưu vào thư mục `D:\Downloads`.
 - Nếu muốn thay đổi thư mục lưu, sửa hàm `getDownloadsFolder` trong `src/downloader.js` và `src/summarizer.js`.
